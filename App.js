@@ -67,9 +67,16 @@ const App = () => {
 <hr />
 <hr />
 {/* Icons */}
-<AccessAlarmsIcon color='error' style={{fontSize:'50px',marginRight:'8px'}}/>
+<AccessAlarmsIcon color='error' style={{fontSize:'50px',marginRight:'8px'}} />
 <CellWifiIcon color='primary'  style={{fontSize:'50px',marginRight:'10px'}}/>
 <WhatsAppIcon color='success'  style={{fontSize:'50px'}}/>
+<hr />
+<hr />
+
+{/* sx props its similar to style */}
+{/* sx works on components */}
+
+<Button sx={{m:5,fontSize:'50px',fontWeight:'700',color:'white',backgroundColor:'black'}} href='https://v5.mui.com/system/getting-started/the-sx-prop/' target='blank'> sx props</Button>
    
 
 
